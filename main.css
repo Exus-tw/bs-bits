@@ -75,3 +75,8 @@ footer {
   color: white;
   background-color: blue;
 }
+
+
+.box {
+  border: 1px dashed black;
+}

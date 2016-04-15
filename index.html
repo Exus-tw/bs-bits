@@ -154,31 +154,40 @@
       <!-- COLUMN RESET -->
       <div class="row">
 
-        <h3>Problem example</h3>
-        <section class="col-xs-6 col-sm-3">
-          .col-xs-6 .col-sm-3 Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Debitis possimus iusto quisquam nam et repudiandae.
+        <section class="col-md-12">
+          <h3>NO COL clearfix</h3>
+          <div class="row">
+            <div class="col-xs-6 col-sm-3 box">
+              .col-xs-6 .col-sm-3 Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Debitis possimus iusto quisquam nam et repudiandae.
+            </div>
+            <div class="col-xs-6 col-sm-3 box">.col-xs-6 .col-sm-3</div>
+            <div class="col-xs-6 col-sm-3 box">.col-xs-6 .col-sm-3</div>
+            <div class="col-xs-6 col-sm-3 box">.col-xs-6 .col-sm-3</div>
+          </div>
         </section>
-        <section class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</section>
-        <section class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</section>
-        <section class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</section>
 
       </div>
-
+      <hr>
       <div class="row">
 
-        <h3>Fixed example</h3>
-        <section class="col-xs-6 col-sm-3">
-          .col-xs-6 .col-sm-3 Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Debitis possimus iusto quisquam nam et repudiandae.
+        <section class="col-md-12">
+          <h3>WITH COL clearfix</h3>
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-3 box">
+              .col-xs-6 .col-sm-3 Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Debitis possimus iusto quisquam nam et repudiandae.
+            </div>
+            <div class="col-xs-6 col-sm-3 box">.col-xs-6 .col-sm-3</div>
+
+            <!-- Add the extra clearfix for only the required viewport -->
+            <div class="clearfix visible-xs-block"></div>
+
+            <div class="col-xs-6 col-sm-3 box">.col-xs-6 .col-sm-3</div>
+            <div class="col-xs-6 col-sm-3 box">.col-xs-6 .col-sm-3</div>
+          </div>
         </section>
-        <section class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</section>
-
-        <!-- Add the extra clearfix for only the required viewport -->
-        <section class="clearfix visible-xs-block"></section>
-
-        <section class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</section>
-        <section class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</section>
 
       </div>
 
